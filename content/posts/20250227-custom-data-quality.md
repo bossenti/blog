@@ -6,11 +6,12 @@ toc = true
 
 [taxonomies]
 tags=[
-    "customization",
+    "datahub",
+    "datahub:customization",
+    "datahub:python-sdk",
     "data-quality",
-    "python-sdk",
 ]
-categories = ["DataHub"]
+categories = ["General"]
 +++
 
 <br>
@@ -19,4 +20,4 @@ In my latest post for the DataHub Community blog, I delve into the process of ge
 
 Discover how to enhance your data quality management and ensure your data assets are pristine and reliable.
 
-Read the full blog post [here](https://datahub-community.medium.com/stay-ahead-with-datahub-the-secret-to-pristine-data-health-e5b653bab776) and enjoy the read! ✌️
+Find the full blog post [here](https://datahub-community.medium.com/stay-ahead-with-datahub-the-secret-to-pristine-data-health-e5b653bab776) and enjoy the read! ✌️

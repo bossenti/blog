@@ -5,9 +5,9 @@
 #
 #=========================================================================================
 
-base_url = "https://datahub.bossenti.dev"    # Domain name of your website
-title = "DataHub@bossenti"            # Title of your website
-description = "Welcome to my blog! Here, I chronicle my journey with [DataHub](https://datahubproject.io/), sharing valuable lessons, practical insights, and real-world experiences from my dual perspective as a hands-on practitioner and an engaged community member."
+base_url = "https://bossenti.dev"    # Domain name of your website
+title = "bossenti"            # Title of your website
+description = "Welcome to my blog! Dive into data & software engineering, cloud technologies, and the open source ecosystem."
 default_language = "en"
 theme = "serene"
 output_dir = "public"
