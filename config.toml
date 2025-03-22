@@ -55,7 +55,8 @@ recent_max = 5
 recent_more_text = "more »"
 
 sections = [
-    { name = "posts", path = "/posts", is_external = false },
+    { name = "blog", path = "/posts", is_external = false },
+    { name = "datahub", path = "/datahub", is_external = false },
     { name = "about", path = "/about", is_external = false },
 ]
 blog_section_path = "/posts"

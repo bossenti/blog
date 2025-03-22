@@ -22,7 +22,7 @@ reaction = false
 **It's all about metadata 🤓**
 
 A few years ago,I came across [DataHub](https://datahubproject.io/)  when I was on the lookout for an open-source data catalog.
-Since then I'm actively enganging with the DataHub community and currently volunteering as a [community champion](https://datahubproject.io/champions).
+Since then, I'm actively enganging with the DataHub community and currently volunteering as a [community champion](https://datahubproject.io/champions).
 
 This section of my blog is dedicated to sharing everything I've learned and discovered while working with DataHub and engaging with the community. You'll find a collection of tips, best practices, demos, and technical deep dives.
 

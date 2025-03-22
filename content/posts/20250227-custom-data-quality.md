@@ -11,7 +11,7 @@ tags=[
     "datahub:python-sdk",
     "data-quality",
 ]
-categories = ["General"]
+categories = ["DataHub"]
 +++
 
 <br>
