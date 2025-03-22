@@ -5,7 +5,7 @@
 #
 #=========================================================================================
 
-base_url = "https://bossenti.codeberg.page"    # Domain name of your website
+base_url = "https://bossenti.dev"    # Domain name of your website
 title = "bossenti"            # Title of your website
 description = "Welcome to my blog! Dive into data & software engineering, cloud technologies, and the open source ecosystem."
 default_language = "en"
