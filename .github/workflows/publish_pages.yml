@@ -1,10 +1,7 @@
 on: push
 name: Build and deploy GH Pages
-permissions:
-  pages: write      # to deploy to Pages
-  id-token: write   # to verify the deployment originates from an appropriate source
 jobs:
-  build:
+  deploy-gh-pages:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
