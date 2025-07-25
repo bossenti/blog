@@ -10,6 +10,9 @@ tags=[
     "python",
 ]
 categories = ["Tech"]
+
+[extra]
+toc = true
 +++
 
 {% note(header="TL;DR") %}

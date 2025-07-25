@@ -2,16 +2,13 @@
 title = "bossenti | about"
 description = "Who am I?"
 template = "prose.html"
-insert_anchor_links = "none"
 
 [extra]
-lang = 'en'
-copy = true
-mermaid = false
-math = false
-comment = false
+title = "About"
+subtitle = "Who am I?"
 reaction = false
 +++
+
 
 <div style="text-align: center;">
     <img src="https://avatars.githubusercontent.com/u/50115603?s=400&u=05b23010cfe29f903ab7fe178b755396dea3eedb&v=4" alt="Markdown Logo" style="width: 150px;">

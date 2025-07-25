@@ -2,8 +2,6 @@
 title = "Data Observability is Key: A Hands-on Comparison of Open Source Data Catalog Tools"
 date = "2023-09-15"
 
-toc = true
-
 [taxonomies]
 tags=[
     "datahub",
@@ -12,6 +10,9 @@ tags=[
     "open-source",
 ]
 categories = ["Tech"]
+
+[extra]
+toc = true
 +++
 
 <br>

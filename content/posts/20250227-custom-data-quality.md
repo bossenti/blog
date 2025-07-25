@@ -2,8 +2,6 @@
 title = "Generating Custom Data Quality Assets"
 date = "2025-02-27"
 
-toc = true
-
 [taxonomies]
 tags=[
     "datahub",
@@ -12,6 +10,9 @@ tags=[
     "data-quality",
 ]
 categories = ["DataHub"]
+
+[extra]
+toc = true
 +++
 
 <br>

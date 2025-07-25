@@ -2,8 +2,6 @@
 title = "Converting a Sklearn Isolation Forrest to ONNX Model"
 date = "2024-03-22"
 
-toc = true
-
 [taxonomies]
 tags=[
     "onnx",
@@ -11,6 +9,9 @@ tags=[
     "scikit-learn",
 ]
 categories = ["Tech"]
+
+[extra]
+toc = true
 +++
 
 Today I was faced with a really tricky error when trying to convert my Isolation Forrest model to an ONNX model. I hope
@@ -36,7 +37,7 @@ model_onnx = to_onnx(
 
 This led me to the following error:
 
-{% alert() %}
+{% caution() %}
 RuntimeError: The model is using version 4 of domain 'ai.onnx.ml' not supported
 yet by this library. You need to specify target_opset={'ai.onnx.ml': 3}
 {% end %}
@@ -58,7 +59,7 @@ model_onnx = to_onnx(
 
 Unfortunately, this resulted in the following error:
 
-{% alert() %}
+{% caution() %}
 RuntimeError: op_version must be specified.
 {% end %}
 

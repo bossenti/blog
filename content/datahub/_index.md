@@ -2,9 +2,10 @@
 title = "bossenti | datahub"
 description = "Why I blog about datahub"
 template = "prose.html"
-insert_anchor_links = "none"
 
 [extra]
+title = "DataHub"
+subtitle = "Why do I blog about datahub?"
 lang = 'en'
 copy = true
 mermaid = false
