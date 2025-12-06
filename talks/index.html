@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  
+  
+    
+  
+  <meta name="description" content="Collection of public appearances">
+
+  <title>bossenti | talks</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="https://bossenti.dev/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://bossenti.dev/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://bossenti.dev/img/apple-touch-icon.png">
+  
+  <style>
+
+  /* light mode colors */
+  body {
+    --primary-color: #5871a2;
+    --primary-pale-color: #5871a233;
+    --primary-decoration-color: #5871a210;
+    --bg-color: #ffffff;
+    --text-color: #2f3030;
+    --text-pale-color: #767676;
+    --text-decoration-color: #a9a9a9;
+    --highlight-mark-color: #5f75b020;
+
+    --callout-note-color: #5871a2;
+    --callout-tip-color: #268556;
+    --callout-important-color: #885fc9;
+    --callout-warning-color: #ab6632;
+    --callout-caution-color: #c64e4e;
+  }
+
+  /* dark mode colors */
+  body.dark {
+    --primary-color: #6f8fd1;
+    --primary-pale-color: #6f8fd166;
+    --primary-decoration-color: #6f8fd112;
+    --bg-color: #1c1c1c;
+    --text-color: #c1c1c1;
+    --text-pale-color: #848484;
+    --text-decoration-color: #5f5f5f;
+    --highlight-mark-color: #8296cb3b;
+
+    --callout-note-color: #6f8fd1;
+    --callout-tip-color: #47976f;
+    --callout-important-color: #9776cd;
+    --callout-warning-color: #ad7a52;
+    --callout-caution-color: #d06161;
+  }
+
+  /* typography */
+  body {
+    --main-font: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --code-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --homepage-max-width: 768px;
+    --main-max-width: 768px;
+    --avatar-size: 60px;
+    --font-size: 16px;
+    --line-height: 1.75;
+    --img-border-radius: 0px;
+    --detail-border-radius: 0px;
+    --dark-mode-img-brightness: 0.75;
+    --dark-mode-chart-brightness: 0.75;
+    --inline-code-border-radius: 2px;
+    --inline-code-bg-color: var(--primary-decoration-color);
+    --block-code-border-radius: 0px;
+    --block-code-border-color: var(--primary-color);
+    --detail-border-color: var(--primary-color);
+  }
+
+</style>
+
+  <link rel="stylesheet" href="https://bossenti.dev/main.css">
+  
+
+<link id="hl" rel="stylesheet" type="text/css" href="/hl-light.css" />
+
+
+
+  
+</head>
+
+<body class="prose-page">
+  
+  <script>
+    const theme = sessionStorage.getItem('theme');
+    const match = window.matchMedia("(prefers-color-scheme: dark)").matches
+    if ((theme && theme == 'dark') || (!theme && match)) {
+      document.body.classList.add('dark');
+      const hl = document.querySelector('link#hl');
+      if (hl) hl.href = 'https://bossenti.dev/hl-dark.css';
+    }
+  </script>
+  
+  
+<div id="wrapper">
+  <main>
+    
+<header>
+  <nav>
+    <a href="https:&#x2F;&#x2F;bossenti.dev">← Back</a>
+  </nav>
+</header>
+
+    
+<div class="section-title">
+  
+  <h1>Talks</h1>
+  
+  
+  <p>Events I have been giving a talk including the materials used</p>
+  
+</div>
+
+
+    <div>
+      
+      <article class="prose">
+        
+
+<section class="collection-wrapper">
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="&#x2F;img&#x2F;it_tage_logo.png" alt="Die Apache Software Foundation: Die größte Open-Source-Stiftung der Welt" height="175">
+  </div>
+  <div class="text">
+    
+    <a class="title" href="&#x2F;slides&#x2F;2025_ITTage_ASF.pdf" target="_blank" rel="noreferrer noopener" >Die Apache Software Foundation: Die größte Open-Source-Stiftung der Welt</a>
+    
+    
+    <div class="subtitle">IT Tage 2025</div>
+    
+    
+    <div class="content">The Apache Software Foundation (ASF) plays a central role in today&#x27;s software landscape—its projects are ubiquitous, and its economic contribution is estimated at over $22 billion. Yet many developers who work with Apache projects on a daily basis or whose work is based on ASF software know surprisingly little about the organization itself and its structures. This presentation offers participants an easy-to-understand introduction to how the ASF works, explains key terms and processes, and provides practical insights into the organization—supplemented by personal experiences from the perspective of a PMC (Project Management Committee) member, i.e., a so-called core contributor.</div>
+    
+    
+  </div>
+</blockquote>
+
+  
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="&#x2F;img&#x2F;pycon.png" alt="Serverless Orchestration: Exploring the Future of Workflow Automation" height="175">
+  </div>
+  <div class="text">
+    
+    <a class="title" href="&#x2F;slides&#x2F;2025_PyCon_ServerlessOrchestration.pdf" target="_blank" rel="noreferrer noopener" >Serverless Orchestration: Exploring the Future of Workflow Automation</a>
+    
+    
+    <div class="subtitle">PyCon &amp; PyData DE 2025</div>
+    
+    
+    <div class="content">Orchestration is a typical challenge in the data engineering world. Scheduling your data transformation jobs via CRON-jobs is cumbersome and error-prone. Furthermore, with an increasing number of jobs to manage it gets in-oversee able. Tools like Apache Airflow, Dagster, Luigi, and Prefect are known for addressing these challenges but often require additional resources or investment. With the advent of serverless orchestration tools, many of these disadvantages are mitigated, offering a more streamlined and cost-effective solution. Beyond data engineering, serverless orchestration holds substantial potential for classical software engineering, especially as organizations explore serverless approaches for optimizing efficiency and reducing overhead.</div>
+    
+    
+  </div>
+</blockquote>
+
+  
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="&#x2F;img&#x2F;vienna_de_meetup.png" alt="Microsoft Fabric: Data Engineering Game Changer or Just a Fad?" height="175">
+  </div>
+  <div class="text">
+    
+    <a class="title" href="&#x2F;slides&#x2F;2024_10_vienna_data_eng_meetup.pdf" target="_blank" rel="noreferrer noopener" >Microsoft Fabric: Data Engineering Game Changer or Just a Fad?</a>
+    
+    
+    <div class="subtitle">Vienna Data Engineering Meetup, Oct 2024</div>
+    
+    
+    <div class="content">Microsoft Fabric is a new end-to-end analytics and data platform designed for enterprises that need a unified solution. It promises to span the entire data lifecycle, including data movement, processing, ingestion, transformation, real-time event routing, and report building. At Cloudflight, we started using Microsoft Fabric to build our internal data platform. This talk will cover our experiences, the issues we encountered, the best practices we learned, and how we managed to work with Microsoft Fabric. At the end, let&#x27;s have a joint discussion and look forward to whether Fabric is here to stay or whether it will fade away.</div>
+    
+    
+  </div>
+</blockquote>
+
+  
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="&#x2F;img&#x2F;data2day2019_noyear.svg" alt="Von Chaos zu Erfolg: Datenqualität beherrschen" height="175">
+  </div>
+  <div class="text">
+    
+    <a class="title" href="&#x2F;slides&#x2F;Loefflath_Bossenmaier__Von_Chaos_zu_Erfolg_Datenqualitaet_beherrschen.pdf" target="_blank" rel="noreferrer noopener" >Von Chaos zu Erfolg: Datenqualität beherrschen</a>
+    
+    
+    <div class="subtitle">data2day 2023</div>
+    
+    
+    <div class="content">This talk covers the challenges of working with messy and complex data during data processing. We introduce the most common sources and types of data quality problems. We then look at the specific methods and techniques used to identify, analyze and resolve such issues, such as data quarantining, data testing and data contracts. The aim is to introduce strategies, best practices and tools for ensuring data quality.</div>
+    
+    
+  </div>
+</blockquote>
+
+  
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="&#x2F;img&#x2F;building_iot.png" alt="IIoT-Datenanbindung und -analyse leicht gemacht" height="175">
+  </div>
+  <div class="text">
+    
+    <a class="title" href="&#x2F;slides&#x2F;Bossenmaier_Zehnder__IIoT-Datenanbindung_und_-analyse_leicht_gemacht.pdf" target="_blank" rel="noreferrer noopener" >IIoT-Datenanbindung und -analyse leicht gemacht</a>
+    
+    
+    <div class="subtitle">Building IoT 2023</div>
+    
+    
+    
+  </div>
+</blockquote>
+
+  
+
+  
+    
+<blockquote class="collection art">
+  <div class="img-wrapper">
+    <img src="&#x2F;img&#x2F;pyconde_bear.png" alt="Apache StreamPipes for Pythonistas - IIoT data handling made easy!" height="175">
+  </div>
+  <div class="text">
+    
+    <a class="title" href="&#x2F;slides&#x2F;2023_pycon_streampipes_pythonistas.pdf" target="_blank" rel="noreferrer noopener" >Apache StreamPipes for Pythonistas - IIoT data handling made easy!</a>
+    
+    
+    <div class="subtitle">PyCon &amp; PyData DE 2023</div>
+    
+    
+    <div class="content">The industrial environment offers a lot of interesting use cases for data enthusiasts. There are myriads of interesting challenges that can be solved by data scientists. However, collecting industrial data in general and industrial IoT (IIoT) data in particular, is cumbersome and not really appealing for anyone who just wants to work with data. Apache StreamPipes addresses this pitfall and allows anyone to extract data from IIoT data sources without messing around with (old-fashioned) protocols. In addition, StreamPipes newly developed Python client now gives Pythonistas the ability to programmatically access and work with them in a Pythonic way.</div>
+    
+    
+  </div>
+</blockquote>
+
+  
+
+</section>
+
+      </article>
+
+      
+      
+
+      
+    </div>
+
+    
+
+
+<footer>
+  <div class="left">
+    <div class="copyright">
+      © 2025 bossenti
+      
+      <span>|</span>
+      Built with <a href="https://www.getzola.org" rel="noreferrer" target="_blank">zola</a> and <a href="https://github.com/isunjn/serene" rel="noreferrer" target="_blank">serene</a>
+      
+    </div>
+  </div>
+
+  <div class="right">
+    
+
+    
+    
+    
+    <button id="theme-toggle" aria-label="theme switch">
+      <span class="moon-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 21.9995 11.8995C22 11.933 22 11.9665 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C12.0335 2 12.067 2 12.1005 2.00049C10.8043 3.27098 10 5.04157 10 7ZM4 12C4 16.4183 7.58172 20 12 20C15.0583 20 17.7158 18.2839 19.062 15.7621C18.3945 15.9187 17.7035 16 17 16C12.0294 16 8 11.9706 8 7C8 6.29648 8.08133 5.60547 8.2379 4.938C5.71611 6.28423 4 8.9417 4 12Z" fill="currentColor"></path></svg></span>
+      <span class="sun-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16ZM11 1H13V4H11V1ZM11 20H13V23H11V20ZM3.51472 4.92893L4.92893 3.51472L7.05025 5.63604L5.63604 7.05025L3.51472 4.92893ZM16.9497 18.364L18.364 16.9497L20.4853 19.0711L19.0711 20.4853L16.9497 18.364ZM19.0711 3.51472L20.4853 4.92893L18.364 7.05025L16.9497 5.63604L19.0711 3.51472ZM5.63604 16.9497L7.05025 18.364L4.92893 20.4853L3.51472 19.0711L5.63604 16.9497ZM23 11V13H20V11H23ZM4 11V13H1V11H4Z" fill="currentColor"></path></svg></span>
+    </button>
+    
+  </div>
+</footer>
+
+
+
+  </main>
+</div>
+
+  
+<script src="/js/lightense.min.js"></script>
+
+
+  <script src="https://bossenti.dev/js/main.js"></script>
+</body>
+
+</html>
