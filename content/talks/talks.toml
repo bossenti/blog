@@ -1,5 +1,14 @@
 [[collection]]
 type = "art"
+img = "/img/it_tage_logo.png"
+title = "Die Apache Software Foundation: Die größte Open-Source-Stiftung der Welt"
+link = "/slides/2025_ITTage_ASF.pdf"
+subtitle = "IT Tage 2025"
+content = "The Apache Software Foundation (ASF) plays a central role in today's software landscape—its projects are ubiquitous, and its economic contribution is estimated at over $22 billion. Yet many developers who work with Apache projects on a daily basis or whose work is based on ASF software know surprisingly little about the organization itself and its structures. This presentation offers participants an easy-to-understand introduction to how the ASF works, explains key terms and processes, and provides practical insights into the organization—supplemented by personal experiences from the perspective of a PMC (Project Management Committee) member, i.e., a so-called core contributor."
+footer = ""
+
+[[collection]]
+type = "art"
 img = "/img/pycon.png"
 title = "Serverless Orchestration: Exploring the Future of Workflow Automation"
 link = "/slides/2025_PyCon_ServerlessOrchestration.pdf"
